@@ -40,16 +40,18 @@ Sources are available in a /[[https://github.com/vlead/ui-3.0-toolkit/releases/t
 An /[[http://vlabs.ac.in/analytics/usage.html][analytics]]/ service is developed that exposes a set of
 API to display usage and hits of Virtual Labs.
 
-* Secutiy Framework 2.0
+* Security Framework 2.0
 :PROPERTIES:
 :CUSTOM_ID: securityframework
 :END:
 All labs at integration levels 5 & 6 are deployed on AWS
-cloud.  The cloud is designed in such a way that the virtual
+cloud. The AWS cloud is designed in such a way that the virtual
 machines hosting the labs are not accessible to the outside
-world.  A layer of security is built on top of these VMs
-such that the traffic is directed through a single machine
-called =router=.
+world. AWS already imposes several security features in each 
+individual VM created, on top of which another layer of 
+security in the form of firewalls and reverse 
+proxy is built such that the traffic is 
+directed through a single machine called =router=.
 
 * Persistence API 2.0
 :PROPERTIES:
